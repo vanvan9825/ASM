@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.tieuDe{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+.noiDung{
+    float: left;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.nhomNoiDung{
+    border: 2px solid black;
+    
+}
+table{
+    border-collapse: collapse;
+}

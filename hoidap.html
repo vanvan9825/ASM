@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hỏi & đáp</title>
+    <style>
+ .hoidap {
+    margin-left: 10px;
+    border: 1px solid blue;
+    padding: 20px;
+  }
+  h3 {
+    text-align: center;
+    font-size: 26px;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="submit"]{
+    width: 12%;
+    margin-left: 85%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px blue ;
+    border: blue;
+  }
+  input[type="submit"]:hover {
+    color: white;
+    background-color: blue;
+  } 
+
+    </style>
+</head>
+<body>
+    <div class="hoidap">
+        <h3>Hỏi & đáp</h3>
+        <form action="" method="get" enctype="multipart/form-data">
+            <label for="checkbox">Cảm nhận của bạn về trường THPT Đại An: </label>
+            <br />
+            <input value="Tuyetvoi" type="radio" name="Camnhan" />Tuyệt vời<br />
+            <input value="On" type="radio" name="Camnhan" />Trên tuyệt vời<br />
+            <input value="Te" type="radio" name="Camnhan" />Cũng Tuyệt vời
+            <br />
+    
+            <label for="checkbox">Các thông tin trường có hữu ích không?</label>
+            <br />
+            <input value="Rathuuich" type="radio" name="huuich" />Có<br />
+             <input value="Khong" type="radio" name="huuich" />Không
+            <br />
+    
+            <label for="checkbox">Các thông tin có cập nhật kịp thời không?</label>
+            <br />
+            <input value="Co" type="radio" name="capnhat" />Có<br />
+            <input value="Condangcham" type="radio" name="capnhat" />Không
+            <br />
+    
+            <label for="checkbox">Bạn có thông tin mới gì về trường không: </label>
+            <br />
+            <input type="radio" name="thongtin"/><input type="text"><br />
+            <input value="Khong" type="radio" name="thongtin" />Không
+            <br />
+            
+            <input type="submit" value="Gửi">
+        </form>
+    </div>
+</body>
+</html>

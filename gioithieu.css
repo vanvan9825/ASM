@@ -1,0 +1,13 @@
+.class {
+    margin-left: 10px;
+    border: 1px solid blue;
+    padding: 20px;
+}
+img {
+    width: 82%;
+    height: 40vh;
+    
+}
+h2 {
+    text-align: center;
+}

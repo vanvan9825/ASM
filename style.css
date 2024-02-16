@@ -1,0 +1,92 @@
+
+body {
+    padding:0px;
+    margin:0px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: auto;
+    position: relative;
+}
+.container > header{ 
+    background-image: url(https://scontent.fhph1-2.fna.fbcdn.net/v/t1.15752-9/422965733_921974845967382_2360703797037624261_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHBqNGaA0Nrc7YDIO6r_XmFL9efB9jj6Osv158H2OPo6_blMaQvNH-tvcn9oMq8Dsek8FOcW6jeaWie37TNGoy4&_nc_ohc=28Iehdfsi5kAX-fL9rN&_nc_ht=scontent.fhph1-2.fna&oh=03_AdSnKeWfNT5_S-O1f6ARjA6U7fu3OdLjpYxGhmAAoHp7yw&oe=65F59E7D);
+    background-size:100% 100%;
+    height:0px;
+    padding-bottom:25%;
+    position: relative;
+}
+
+.company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+.menu {
+    background-color: #0199ed;
+    line-height: 40px;
+}
+.menu>ul {
+    list-style: none;
+    text-align: center;
+}
+.menu>ul>li {
+    display: inline-block;
+} 
+.menu>ul>li>a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-variant:small-caps;
+    padding: 0 20px;
+}
+.menu>ul>li>a:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #777;
+}
+article{
+    width:80%;
+    background-color:white;
+    float:left;
+}
+aside {
+    width:20%;
+    background-color:white;
+    float:right;
+}
+aside ul {
+    list-style: none;
+}
+aside a{
+    display: block;
+    border: 1px dotted #0199ed;
+    color:#0199ed;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+aside a:hover {
+    background-color:#0199ed;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    border-top:2px double black;
+    line-height:30px;
+    color: white;
+    background-color: #0199ed;
+    text-align:center;
+    clear:both;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 500px;
+}
+
+.AD{
+    width: 15px;
+    height: 80px;
+}
